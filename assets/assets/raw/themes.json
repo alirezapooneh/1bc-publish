@@ -1,0 +1,2594 @@
+[
+    {
+        "name": "Primary Theme",
+        "themeData": {
+            "primarySwatch": "ffFF9800",
+            "brightness": "dark",
+            "fontFamily": "Inter",
+            "scaffoldBackgroundColor": "ff21212D"
+        },
+        "primaryInputTheme": {
+            "borderColor": "ff38404E",
+            "backgroundColor": "ff2F2F3B",
+            "textStyle": {
+                "color": "ffBFD4E4",
+                "fontFamily": "Inter",
+                "fontWeight": "600",
+                "fontSize": 14,
+                "overflow": "visible",
+                "height": 1
+            },
+            "decoration": {
+                "hintStyle": {
+                    "color": "ff94A1B9",
+                    "fontFamily": "Inter",
+                    "fontWeight": "400",
+                    "fontSize": 14,
+                    "overflow": "visible"
+                },
+                "border": "none",
+                "disabledBorder": "none",
+                "enabledBorder": "none",
+                "focusedBorder": "none"
+            },
+            "helpTextStyle": {
+                "color": "ffF07A7A",
+                "fontWeight": "400",
+                "fontFamily": "Inter",
+                "fontStyle": "normal",
+                "fontSize": 14,
+                "overflow": "visible"
+            }
+        },
+        "siteSelectorInputTheme": {
+            "borderColor": null,
+            "backgroundColor": null,
+            "textStyle": null,
+            "decoration": {
+                "hintStyle": {
+                    "color": "52BFD4E4",
+                    "fontFamily": "Inter",
+                    "fontWeight": "400",
+                    "fontSize": 14,
+                    "overflow": "visible"
+                },
+                "border": "none"
+            },
+            "helpTextStyle": null
+        },
+        "secondaryInputTheme": {
+            "borderColor": null,
+            "backgroundColor": null,
+            "textStyle": null,
+            "decoration": {
+                "border": "none"
+            },
+            "helpTextStyle": null
+        },
+        "tertiaryInputTheme": {
+            "borderColor": null,
+            "backgroundColor": null,
+            "textStyle": null,
+            "decoration": {
+                "contentPadding": {
+                    "right": 5,
+                    "left": 5,
+                    "top": 0,
+                    "bottom": 0
+                },
+                "border": "outline"
+            },
+            "helpTextStyle": null
+        },
+        "shadowFirstColor": "ff3d3f52",
+        "shadowSecondColor": "ff292a3a",
+        "primaryCheckboxActiveColor": "ff64B55F",
+        "primaryRadioActiveColor": "ff64B55F",
+        "primarySwitchActiveColor": "ff64B55F",
+        "approvedColor": "ff64B55F",
+        "checkedInIconColor": "ff64B55F",
+        "badgeColor": "ffF07A7A",
+        "borderColor": "ff748092",
+        "primaryCheckboxBorder": {
+            "colors": [
+                "ff94A1B9",
+                "ffD2DCEA"
+            ],
+            "begin": "topLeft",
+            "end": "bottomRight",
+            "stops": [
+                0.0,
+                1.0
+            ],
+            "tileMode": "clamp"
+        },
+        "primaryCheckboxColor": "ffF1F7FE",
+        "primaryCheckColor": "ffffffff",
+        "toggleBackgroundColor": "ff15151E",
+        "toggleSelectedColor": "ffD2DCEA",
+        "toggleUnSelectedColor": "28D2DCEA",
+        "innerColor": "FF2F2F3B",
+        "loadingColor": "80FFFFFF",
+        "switchThumbColor": "ffffffff",
+        "choiceChipSelectedColor": "FFD2DCEA",
+        "choiceChipDisabledColor": "FF15151E",
+        "avatarBackgroundColor": "FF646574",
+        "primaryButtonTheme": {
+            "buttonStyle": {
+                "color": "FF64B55F"
+            },
+            "disabledButtonColor": "4EC6FFD6",
+            "borderButtonDecoration": {
+                "gradient": {
+                    "colors": [
+                        "FF90D88A",
+                        "ff58A253"
+                    ]
+                }
+            },
+            "buttonTextStyle": {
+                "color": "ffffffff",
+                "fontWeight":"600",
+                "fontSize":12
+            },
+            "disabledTextButtonColor": "80FFFFFF",
+            "buttonDecoration": null
+        },
+        "secondaryButtonTheme": {
+            "buttonStyle": {
+                "color": "FF15151E"
+            },
+            "disabledButtonColor": "4D15151E",
+            "borderButtonDecoration": null,
+            "buttonTextStyle": {
+                "color": "FFC6FFD6",
+                "fontWeight":"600",
+                "fontSize":12
+            },
+            "disabledTextButtonColor": "80FFFFFF",
+            "buttonDecoration": null
+        },
+        "tertiaryButtonTheme": {
+            "buttonStyle": {
+                "color": "ffF9BB3A",
+                "overlayColor": "FFD99F27"
+            },
+            "disabledButtonColor": "4DF9BB3A",
+            "borderButtonDecoration": null,
+            "buttonTextStyle": {
+                "color": "FF38404E",
+                "fontWeight":"600",
+                "fontSize":12
+            },
+            "disabledTextButtonColor": "6638404E",
+            "buttonDecoration": null
+        },
+        "accentButtonTheme": {
+            "buttonStyle": {
+                "color": "FF32C5FF"
+            },
+            "disabledButtonColor": null,
+            "borderButtonDecoration": null,
+            "buttonTextStyle": {
+                "color": "ffffffff",
+                "fontWeight":"600",
+                "fontSize":12
+            },
+            "disabledTextButtonColor": null,
+            "buttonDecoration": null
+        },
+        "dangerButtonTheme": {
+            "buttonStyle": {
+                "color": "FFF07A7A"
+            },
+            "disabledButtonColor": "40F07A7A",
+            "borderButtonDecoration": null,
+            "buttonTextStyle": {
+                "color": "ffffffff",
+                "fontWeight":"600",
+                "fontSize":12
+            },
+            "disabledTextButtonColor": "50FFFFFF",
+            "buttonDecoration": null
+        },
+
+        "primaryBackgroundColor": "FF21212D",
+        "modalsBackgroundColor": "FF21212D",
+        "loadingBackgroundColor": "FF21212D",
+        "attendanceApprovedDecoration": {
+            "borderRadius": 50,
+            "color": "FF64B55F"
+        },
+        "shapeBoxDecoration": {
+            "gradient": {
+                "colors": [
+                    "ffD2DCEA",
+                    "ffF1F7FE"
+                ],
+                "begin": "topLeft",
+                "end": "bottomRight"
+            },
+            "borderRadius": 5
+        },
+        "disabledShapeBoxDecoration": {
+            "gradient": {
+                "colors": [
+                    "6DD2DCEA",
+                    "6DF1F7FE"
+                ],
+                "begin": "topLeft",
+                "end": "bottomRight"
+            },
+            "borderRadius": 5
+        },
+        "shapeBoxTextStyle": {
+            "fontSize": 11.0,
+            "color": "FF38404E",
+            "fontFamily": "Inter",
+            "overflow": "visible"
+        },
+        "disabledShapeBoxTextStyle": {
+            "fontSize": 11.0,
+            "color": "A638404E",
+            "fontFamily": "Inter",
+            "overflow": "visible"
+        },
+        "shapeBoxIconColor": "FF38404E",
+        "disabledShapeBoxIconColor": "A638404E",
+        "cardDecoration": {
+            "gradient": {
+                "type": "radial",
+                "colors": [
+                    "ff3D3F52",
+                    "ff292A3A"
+                ]
+            }
+        },
+        "cardBorderDecoration": {
+            "gradient": {
+                "type": "radial",
+                "colors": [
+                    "ff424F5B",
+                    "ff262534"
+                ]
+            }
+        },
+        "gradientDivider": {
+            "colors": [
+                "0038404E",
+                "ff38404E",
+                "ff38404E",
+                "0038404E"
+            ]
+        },
+        "checkInTypeButtonColor": "ffF9BB3A",
+        "checkInTypeButtonTextColor": "ff38404E",
+        "checkInTypeButtonGradientBorderColor": {
+            "colors": [
+                "ffFFDD62",
+                "ffF9BB3A"
+            ]
+        },
+        "warningColor": "ffF9BB3A",
+        "dangerColor": "ffF07A7A",
+        "attendanceReportStatusColor": {
+            "successColor": "4caf50",
+            "infoColor": "15a9ff",
+            "defaultColor": "aaaaaa",
+            "dangerColor": "e12425",
+            "cautionColor": "ffc107",
+            "warningColor": "ff8c00"
+        },
+        "dangerBorderColor": "ff950B0B",
+        "dangerBorderGradientColor": {
+            "colors": [
+                "ffFB6D6D",
+                "ffD04848"
+            ]
+        },
+        "selectedBottomNavColor": "33FFFFFF",
+        "bottomNavigationGradient": {
+            "begin": "topCenter",
+            "end": "bottomCenter",
+            "stops": [
+                0.4,
+                1
+            ],
+            "colors": [
+                "ff383648",
+                "ff2c2a3a"
+            ]
+        },
+        "primaryIconColor": "FFBFD4E4",
+        "accentIconColor": "FF32C5FF",
+        "secondaryIconColor": "FFC6FFD6",
+        "primaryTextStyle": {
+            "color": "FFBFD4E4",
+            "regular1": {
+                "fontWeight": "400",
+                "fontStyle": "normal",
+                "fontSize": 10.0,
+                "overflow": "visible"
+            },
+            "regular2": {
+                "fontWeight": "400",
+                "fontStyle": "normal",
+                "fontSize": 12.0,
+                "overflow": "visible"
+            },
+            "regular3": {
+                "fontWeight": "400",
+                "fontStyle": "normal",
+                "fontSize": 14.0,
+                "overflow": "visible"
+            },
+            "regular4": {
+                "fontWeight": "400",
+                "fontStyle": "normal",
+                "fontSize": 16.0,
+                "overflow": "visible"
+            },
+            "medium1": {
+                "fontWeight": "500",
+                "fontStyle": "normal",
+                "fontSize": 9.0,
+                "overflow": "visible"
+            },
+            "medium2": {
+                "fontWeight": "500",
+                "fontStyle": "normal",
+                "fontSize": 10.0,
+                "overflow": "visible"
+            },
+            "medium3": {
+                "fontWeight": "500",
+                "fontStyle": "normal",
+                "fontSize": 12.0,
+                "overflow": "visible"
+            },
+            "medium4": {
+                "fontWeight": "500",
+                "fontStyle": "normal",
+                "fontSize": 28.0,
+                "overflow": "visible"
+            },
+            "semiBold1": {
+                "fontWeight": "600",
+                "fontStyle": "normal",
+                "fontSize": 8.0,
+                "overflow": "visible"
+            },
+            "semiBold2": {
+                "fontWeight": "600",
+                "fontStyle": "normal",
+                "fontSize": 12.0,
+                "overflow": "visible"
+            },
+            "semiBold3": {
+                "fontWeight": "600",
+                "fontStyle": "normal",
+                "fontSize": 14.0,
+                "overflow": "visible"
+            },
+            "semiBold4": {
+                "fontWeight": "600",
+                "fontStyle": "normal",
+                "fontSize": 16.0,
+                "overflow": "visible"
+            },
+            "semiBold5": {
+                "fontWeight": "600",
+                "fontStyle": "normal",
+                "fontSize": 20.0,
+                "overflow": "visible"
+            },
+            "semiBold6": {
+                "fontWeight": "600",
+                "fontStyle": "normal",
+                "fontSize": 22.0,
+                "overflow": "visible"
+            },
+            "bold1": {
+                "fontWeight": "700",
+                "fontStyle": "normal",
+                "fontSize": 10.0,
+                "overflow": "visible"
+            },
+            "bold2": {
+                "fontWeight": "700",
+                "fontStyle": "normal",
+                "fontSize": 12.0,
+                "overflow": "visible"
+            },
+            "bold3": {
+                "fontWeight": "700",
+                "fontStyle": "normal",
+                "fontSize": 14.0,
+                "overflow": "visible"
+            },
+            "bold4": {
+                "fontWeight": "700",
+                "fontStyle": "normal",
+                "fontSize": 18.0,
+                "overflow": "visible"
+            }
+        },
+        "secondaryTextStyle": {
+            "color": "FFFFFFFF",
+            "regular1": {
+                "fontWeight": "400",
+                "fontStyle": "normal",
+                "fontSize": 10.0,
+                "overflow": "visible"
+            },
+            "regular2": {
+                "fontWeight": "400",
+                "fontStyle": "normal",
+                "fontSize": 12.0,
+                "overflow": "visible"
+            },
+            "regular3": {
+                "fontWeight": "400",
+                "fontStyle": "normal",
+                "fontSize": 14.0,
+                "overflow": "visible"
+            },
+            "regular4": {
+                "fontWeight": "400",
+                "fontStyle": "normal",
+                "fontSize": 16.0,
+                "overflow": "visible"
+            },
+            "medium1": {
+                "fontWeight": "500",
+                "fontStyle": "normal",
+                "fontSize": 9.0,
+                "overflow": "visible"
+            },
+            "medium2": {
+                "fontWeight": "500",
+                "fontStyle": "normal",
+                "fontSize": 10.0,
+                "overflow": "visible"
+            },
+            "medium3": {
+                "fontWeight": "500",
+                "fontStyle": "normal",
+                "fontSize": 12.0,
+                "overflow": "visible"
+            },
+            "medium4": {
+                "fontWeight": "500",
+                "fontStyle": "normal",
+                "fontSize": 28.0,
+                "overflow": "visible"
+            },
+            "semiBold1": {
+                "fontWeight": "600",
+                "fontStyle": "normal",
+                "fontSize": 8.0,
+                "overflow": "visible"
+            },
+            "semiBold2": {
+                "fontWeight": "600",
+                "fontStyle": "normal",
+                "fontSize": 12.0,
+                "overflow": "visible"
+            },
+            "semiBold3": {
+                "fontWeight": "600",
+                "fontStyle": "normal",
+                "fontSize": 14.0,
+                "overflow": "visible"
+            },
+            "semiBold4": {
+                "fontWeight": "600",
+                "fontStyle": "normal",
+                "fontSize": 16.0,
+                "overflow": "visible"
+            },
+            "semiBold5": {
+                "fontWeight": "600",
+                "fontStyle": "normal",
+                "fontSize": 20.0,
+                "overflow": "visible"
+            },
+            "semiBold6": {
+                "fontWeight": "600",
+                "fontStyle": "normal",
+                "fontSize": 22.0,
+                "overflow": "visible"
+            },
+            "bold1": {
+                "fontWeight": "700",
+                "fontStyle": "normal",
+                "fontSize": 10.0,
+                "overflow": "visible"
+            },
+            "bold2": {
+                "fontWeight": "700",
+                "fontStyle": "normal",
+                "fontSize": 12.0,
+                "overflow": "visible"
+            },
+            "bold3": {
+                "fontWeight": "700",
+                "fontStyle": "normal",
+                "fontSize": 14.0,
+                "overflow": "visible"
+            },
+            "bold4": {
+                "fontWeight": "700",
+                "fontStyle": "normal",
+                "fontSize": 18.0,
+                "overflow": "visible"
+            }
+        },
+        "tertiaryTextStyle": {
+            "color": "FF94A1B9",
+            "regular1": {
+                "fontWeight": "400",
+                "fontStyle": "normal",
+                "fontSize": 10.0,
+                "overflow": "visible"
+            },
+            "regular2": {
+                "fontWeight": "400",
+                "fontStyle": "normal",
+                "fontSize": 12.0,
+                "overflow": "visible"
+            },
+            "regular3": {
+                "fontWeight": "400",
+                "fontStyle": "normal",
+                "fontSize": 14.0,
+                "overflow": "visible"
+            },
+            "regular4": {
+                "fontWeight": "400",
+                "fontStyle": "normal",
+                "fontSize": 16.0,
+                "overflow": "visible"
+            },
+            "medium1": {
+                "fontWeight": "500",
+                "fontStyle": "normal",
+                "fontSize": 9.0,
+                "overflow": "visible"
+            },
+            "medium2": {
+                "fontWeight": "500",
+                "fontStyle": "normal",
+                "fontSize": 10.0,
+                "overflow": "visible"
+            },
+            "medium3": {
+                "fontWeight": "500",
+                "fontStyle": "normal",
+                "fontSize": 12.0,
+                "overflow": "visible"
+            },
+            "medium4": {
+                "fontWeight": "500",
+                "fontStyle": "normal",
+                "fontSize": 28.0,
+                "overflow": "visible"
+            },
+            "semiBold1": {
+                "fontWeight": "600",
+                "fontStyle": "normal",
+                "fontSize": 8.0,
+                "overflow": "visible"
+            },
+            "semiBold2": {
+                "fontWeight": "600",
+                "fontStyle": "normal",
+                "fontSize": 12.0,
+                "overflow": "visible"
+            },
+            "semiBold3": {
+                "fontWeight": "600",
+                "fontStyle": "normal",
+                "fontSize": 14.0,
+                "overflow": "visible"
+            },
+            "semiBold4": {
+                "fontWeight": "600",
+                "fontStyle": "normal",
+                "fontSize": 16.0,
+                "overflow": "visible"
+            },
+            "semiBold5": {
+                "fontWeight": "600",
+                "fontStyle": "normal",
+                "fontSize": 20.0,
+                "overflow": "visible"
+            },
+            "semiBold6": {
+                "fontWeight": "600",
+                "fontStyle": "normal",
+                "fontSize": 22.0,
+                "overflow": "visible"
+            },
+            "bold1": {
+                "fontWeight": "700",
+                "fontStyle": "normal",
+                "fontSize": 10.0,
+                "overflow": "visible"
+            },
+            "bold2": {
+                "fontWeight": "700",
+                "fontStyle": "normal",
+                "fontSize": 12.0,
+                "overflow": "visible"
+            },
+            "bold3": {
+                "fontWeight": "700",
+                "fontStyle": "normal",
+                "fontSize": 14.0,
+                "overflow": "visible"
+            },
+            "bold4": {
+                "fontWeight": "700",
+                "fontStyle": "normal",
+                "fontSize": 18.0,
+                "overflow": "visible"
+            }
+        },
+        "quarterlyTextStyle": {
+            "color": "FFD2DCEA",
+            "regular1": {
+                "fontWeight": "400",
+                "fontStyle": "normal",
+                "fontSize": 10.0,
+                "overflow": "visible"
+            },
+            "regular2": {
+                "fontWeight": "400",
+                "fontStyle": "normal",
+                "fontSize": 12.0,
+                "overflow": "visible"
+            },
+            "regular3": {
+                "fontWeight": "400",
+                "fontStyle": "normal",
+                "fontSize": 14.0,
+                "overflow": "visible"
+            },
+            "regular4": {
+                "fontWeight": "400",
+                "fontStyle": "normal",
+                "fontSize": 16.0,
+                "overflow": "visible"
+            },
+            "medium1": {
+                "fontWeight": "500",
+                "fontStyle": "normal",
+                "fontSize": 9.0,
+                "overflow": "visible"
+            },
+            "medium2": {
+                "fontWeight": "500",
+                "fontStyle": "normal",
+                "fontSize": 10.0,
+                "overflow": "visible"
+            },
+            "medium3": {
+                "fontWeight": "500",
+                "fontStyle": "normal",
+                "fontSize": 12.0,
+                "overflow": "visible"
+            },
+            "medium4": {
+                "fontWeight": "500",
+                "fontStyle": "normal",
+                "fontSize": 28.0,
+                "overflow": "visible"
+            },
+            "semiBold1": {
+                "fontWeight": "600",
+                "fontStyle": "normal",
+                "fontSize": 8.0,
+                "overflow": "visible"
+            },
+            "semiBold2": {
+                "fontWeight": "600",
+                "fontStyle": "normal",
+                "fontSize": 12.0,
+                "overflow": "visible"
+            },
+            "semiBold3": {
+                "fontWeight": "600",
+                "fontStyle": "normal",
+                "fontSize": 14.0,
+                "overflow": "visible"
+            },
+            "semiBold4": {
+                "fontWeight": "600",
+                "fontStyle": "normal",
+                "fontSize": 16.0,
+                "overflow": "visible"
+            },
+            "semiBold5": {
+                "fontWeight": "600",
+                "fontStyle": "normal",
+                "fontSize": 20.0,
+                "overflow": "visible"
+            },
+            "semiBold6": {
+                "fontWeight": "600",
+                "fontStyle": "normal",
+                "fontSize": 22.0,
+                "overflow": "visible"
+            },
+            "bold1": {
+                "fontWeight": "700",
+                "fontStyle": "normal",
+                "fontSize": 10.0,
+                "overflow": "visible"
+            },
+            "bold2": {
+                "fontWeight": "700",
+                "fontStyle": "normal",
+                "fontSize": 12.0,
+                "overflow": "visible"
+            },
+            "bold3": {
+                "fontWeight": "700",
+                "fontStyle": "normal",
+                "fontSize": 14.0,
+                "overflow": "visible"
+            },
+            "bold4": {
+                "fontWeight": "700",
+                "fontStyle": "normal",
+                "fontSize": 18.0,
+                "overflow": "visible"
+            }
+        },
+        "fifthTextStyle": {
+            "color": "FF15151E",
+            "regular1": {
+                "fontWeight": "400",
+                "fontStyle": "normal",
+                "fontSize": 10.0,
+                "overflow": "visible"
+            },
+            "regular2": {
+                "fontWeight": "400",
+                "fontStyle": "normal",
+                "fontSize": 12.0,
+                "overflow": "visible"
+            },
+            "regular3": {
+                "fontWeight": "400",
+                "fontStyle": "normal",
+                "fontSize": 14.0,
+                "overflow": "visible"
+            },
+            "regular4": {
+                "fontWeight": "400",
+                "fontStyle": "normal",
+                "fontSize": 16.0,
+                "overflow": "visible"
+            },
+            "medium1": {
+                "fontWeight": "500",
+                "fontStyle": "normal",
+                "fontSize": 9.0,
+                "overflow": "visible"
+            },
+            "medium2": {
+                "fontWeight": "500",
+                "fontStyle": "normal",
+                "fontSize": 10.0,
+                "overflow": "visible"
+            },
+            "medium3": {
+                "fontWeight": "500",
+                "fontStyle": "normal",
+                "fontSize": 12.0,
+                "overflow": "visible"
+            },
+            "medium4": {
+                "fontWeight": "500",
+                "fontStyle": "normal",
+                "fontSize": 28.0,
+                "overflow": "visible"
+            },
+            "semiBold1": {
+                "fontWeight": "600",
+                "fontStyle": "normal",
+                "fontSize": 8.0,
+                "overflow": "visible"
+            },
+            "semiBold2": {
+                "fontWeight": "600",
+                "fontStyle": "normal",
+                "fontSize": 12.0,
+                "overflow": "visible"
+            },
+            "semiBold3": {
+                "fontWeight": "600",
+                "fontStyle": "normal",
+                "fontSize": 14.0,
+                "overflow": "visible"
+            },
+            "semiBold4": {
+                "fontWeight": "600",
+                "fontStyle": "normal",
+                "fontSize": 16.0,
+                "overflow": "visible"
+            },
+            "semiBold5": {
+                "fontWeight": "600",
+                "fontStyle": "normal",
+                "fontSize": 20.0,
+                "overflow": "visible"
+            },
+            "semiBold6": {
+                "fontWeight": "600",
+                "fontStyle": "normal",
+                "fontSize": 22.0,
+                "overflow": "visible"
+            },
+            "bold1": {
+                "fontWeight": "700",
+                "fontStyle": "normal",
+                "fontSize": 10.0,
+                "overflow": "visible"
+            },
+            "bold2": {
+                "fontWeight": "700",
+                "fontStyle": "normal",
+                "fontSize": 12.0,
+                "overflow": "visible"
+            },
+            "bold3": {
+                "fontWeight": "700",
+                "fontStyle": "normal",
+                "fontSize": 14.0,
+                "overflow": "visible"
+            },
+            "bold4": {
+                "fontWeight": "700",
+                "fontStyle": "normal",
+                "fontSize": 18.0,
+                "overflow": "visible"
+            }
+        },
+        "sixthTextStyle": {
+            "color": "FFC6FFD6",
+            "regular1": {
+                "fontWeight": "400",
+                "fontStyle": "normal",
+                "fontSize": 10.0,
+                "overflow": "visible"
+            },
+            "regular2": {
+                "fontWeight": "400",
+                "fontStyle": "normal",
+                "fontSize": 12.0,
+                "overflow": "visible"
+            },
+            "regular3": {
+                "fontWeight": "400",
+                "fontStyle": "normal",
+                "fontSize": 14.0,
+                "overflow": "visible"
+            },
+            "regular4": {
+                "fontWeight": "400",
+                "fontStyle": "normal",
+                "fontSize": 16.0,
+                "overflow": "visible"
+            },
+            "medium1": {
+                "fontWeight": "500",
+                "fontStyle": "normal",
+                "fontSize": 9.0,
+                "overflow": "visible"
+            },
+            "medium2": {
+                "fontWeight": "500",
+                "fontStyle": "normal",
+                "fontSize": 10.0,
+                "overflow": "visible"
+            },
+            "medium3": {
+                "fontWeight": "500",
+                "fontStyle": "normal",
+                "fontSize": 12.0,
+                "overflow": "visible"
+            },
+            "medium4": {
+                "fontWeight": "500",
+                "fontStyle": "normal",
+                "fontSize": 28.0,
+                "overflow": "visible"
+            },
+            "semiBold1": {
+                "fontWeight": "600",
+                "fontStyle": "normal",
+                "fontSize": 8.0,
+                "overflow": "visible"
+            },
+            "semiBold2": {
+                "fontWeight": "600",
+                "fontStyle": "normal",
+                "fontSize": 12.0,
+                "overflow": "visible"
+            },
+            "semiBold3": {
+                "fontWeight": "600",
+                "fontStyle": "normal",
+                "fontSize": 14.0,
+                "overflow": "visible"
+            },
+            "semiBold4": {
+                "fontWeight": "600",
+                "fontStyle": "normal",
+                "fontSize": 16.0,
+                "overflow": "visible"
+            },
+            "semiBold5": {
+                "fontWeight": "600",
+                "fontStyle": "normal",
+                "fontSize": 20.0,
+                "overflow": "visible"
+            },
+            "semiBold6": {
+                "fontWeight": "600",
+                "fontStyle": "normal",
+                "fontSize": 22.0,
+                "overflow": "visible"
+            },
+            "bold1": {
+                "fontWeight": "700",
+                "fontStyle": "normal",
+                "fontSize": 10.0,
+                "overflow": "visible"
+            },
+            "bold2": {
+                "fontWeight": "700",
+                "fontStyle": "normal",
+                "fontSize": 12.0,
+                "overflow": "visible"
+            },
+            "bold3": {
+                "fontWeight": "700",
+                "fontStyle": "normal",
+                "fontSize": 14.0,
+                "overflow": "visible"
+            },
+            "bold4": {
+                "fontWeight": "700",
+                "fontStyle": "normal",
+                "fontSize": 18.0,
+                "overflow": "visible"
+            }
+        },
+        "warningTextStyle": {
+            "color": "FFF9BB3A",
+            "regular1": {
+                "fontWeight": "400",
+                "fontStyle": "normal",
+                "fontSize": 10.0,
+                "overflow": "visible"
+            },
+            "regular2": {
+                "fontWeight": "400",
+                "fontStyle": "normal",
+                "fontSize": 12.0,
+                "overflow": "visible"
+            },
+            "regular3": {
+                "fontWeight": "400",
+                "fontStyle": "normal",
+                "fontSize": 14.0,
+                "overflow": "visible"
+            },
+            "regular4": {
+                "fontWeight": "400",
+                "fontStyle": "normal",
+                "fontSize": 16.0,
+                "overflow": "visible"
+            },
+            "medium1": {
+                "fontWeight": "500",
+                "fontStyle": "normal",
+                "fontSize": 9.0,
+                "overflow": "visible"
+            },
+            "medium2": {
+                "fontWeight": "500",
+                "fontStyle": "normal",
+                "fontSize": 10.0,
+                "overflow": "visible"
+            },
+            "medium3": {
+                "fontWeight": "500",
+                "fontStyle": "normal",
+                "fontSize": 12.0,
+                "overflow": "visible"
+            },
+            "medium4": {
+                "fontWeight": "500",
+                "fontStyle": "normal",
+                "fontSize": 28.0,
+                "overflow": "visible"
+            },
+            "semiBold1": {
+                "fontWeight": "600",
+                "fontStyle": "normal",
+                "fontSize": 8.0,
+                "overflow": "visible"
+            },
+            "semiBold2": {
+                "fontWeight": "600",
+                "fontStyle": "normal",
+                "fontSize": 12.0,
+                "overflow": "visible"
+            },
+            "semiBold3": {
+                "fontWeight": "600",
+                "fontStyle": "normal",
+                "fontSize": 14.0,
+                "overflow": "visible"
+            },
+            "semiBold4": {
+                "fontWeight": "600",
+                "fontStyle": "normal",
+                "fontSize": 16.0,
+                "overflow": "visible"
+            },
+            "semiBold5": {
+                "fontWeight": "600",
+                "fontStyle": "normal",
+                "fontSize": 20.0,
+                "overflow": "visible"
+            },
+            "semiBold6": {
+                "fontWeight": "600",
+                "fontStyle": "normal",
+                "fontSize": 22.0,
+                "overflow": "visible"
+            },
+            "bold1": {
+                "fontWeight": "700",
+                "fontStyle": "normal",
+                "fontSize": 10.0,
+                "overflow": "visible"
+            },
+            "bold2": {
+                "fontWeight": "700",
+                "fontStyle": "normal",
+                "fontSize": 12.0,
+                "overflow": "visible"
+            },
+            "bold3": {
+                "fontWeight": "700",
+                "fontStyle": "normal",
+                "fontSize": 14.0,
+                "overflow": "visible"
+            },
+            "bold4": {
+                "fontWeight": "700",
+                "fontStyle": "normal",
+                "fontSize": 18.0,
+                "overflow": "visible"
+            }
+        },
+        "dangerTextStyle": {
+            "color": "FFF07A7A",
+            "regular1": {
+                "fontWeight": "400",
+                "fontStyle": "normal",
+                "fontSize": 10.0,
+                "overflow": "visible"
+            },
+            "regular2": {
+                "fontWeight": "400",
+                "fontStyle": "normal",
+                "fontSize": 12.0,
+                "overflow": "visible"
+            },
+            "regular3": {
+                "fontWeight": "400",
+                "fontStyle": "normal",
+                "fontSize": 14.0,
+                "overflow": "visible"
+            },
+            "regular4": {
+                "fontWeight": "400",
+                "fontStyle": "normal",
+                "fontSize": 16.0,
+                "overflow": "visible"
+            },
+            "medium1": {
+                "fontWeight": "500",
+                "fontStyle": "normal",
+                "fontSize": 9.0,
+                "overflow": "visible"
+            },
+            "medium2": {
+                "fontWeight": "500",
+                "fontStyle": "normal",
+                "fontSize": 10.0,
+                "overflow": "visible"
+            },
+            "medium3": {
+                "fontWeight": "500",
+                "fontStyle": "normal",
+                "fontSize": 12.0,
+                "overflow": "visible"
+            },
+            "medium4": {
+                "fontWeight": "500",
+                "fontStyle": "normal",
+                "fontSize": 28.0,
+                "overflow": "visible"
+            },
+            "semiBold1": {
+                "fontWeight": "600",
+                "fontStyle": "normal",
+                "fontSize": 8.0,
+                "overflow": "visible"
+            },
+            "semiBold2": {
+                "fontWeight": "600",
+                "fontStyle": "normal",
+                "fontSize": 12.0,
+                "overflow": "visible"
+            },
+            "semiBold3": {
+                "fontWeight": "600",
+                "fontStyle": "normal",
+                "fontSize": 14.0,
+                "overflow": "visible"
+            },
+            "semiBold4": {
+                "fontWeight": "600",
+                "fontStyle": "normal",
+                "fontSize": 16.0,
+                "overflow": "visible"
+            },
+            "semiBold5": {
+                "fontWeight": "600",
+                "fontStyle": "normal",
+                "fontSize": 20.0,
+                "overflow": "visible"
+            },
+            "semiBold6": {
+                "fontWeight": "600",
+                "fontStyle": "normal",
+                "fontSize": 22.0,
+                "overflow": "visible"
+            },
+            "bold1": {
+                "fontWeight": "700",
+                "fontStyle": "normal",
+                "fontSize": 10.0,
+                "overflow": "visible"
+            },
+            "bold2": {
+                "fontWeight": "700",
+                "fontStyle": "normal",
+                "fontSize": 12.0,
+                "overflow": "visible"
+            },
+            "bold3": {
+                "fontWeight": "700",
+                "fontStyle": "normal",
+                "fontSize": 14.0,
+                "overflow": "visible"
+            },
+            "bold4": {
+                "fontWeight": "700",
+                "fontStyle": "normal",
+                "fontSize": 18.0,
+                "overflow": "visible"
+            }
+        },
+        "approvedTextStyle": {
+            "color": "FF64B55F",
+            "regular1": {
+                "fontWeight": "400",
+                "fontStyle": "normal",
+                "fontSize": 10.0,
+                "overflow": "visible"
+            },
+            "regular2": {
+                "fontWeight": "400",
+                "fontStyle": "normal",
+                "fontSize": 12.0,
+                "overflow": "visible"
+            },
+            "regular3": {
+                "fontWeight": "400",
+                "fontStyle": "normal",
+                "fontSize": 14.0,
+                "overflow": "visible"
+            },
+            "regular4": {
+                "fontWeight": "400",
+                "fontStyle": "normal",
+                "fontSize": 16.0,
+                "overflow": "visible"
+            },
+            "medium1": {
+                "fontWeight": "500",
+                "fontStyle": "normal",
+                "fontSize": 9.0,
+                "overflow": "visible"
+            },
+            "medium2": {
+                "fontWeight": "500",
+                "fontStyle": "normal",
+                "fontSize": 10.0,
+                "overflow": "visible"
+            },
+            "medium3": {
+                "fontWeight": "500",
+                "fontStyle": "normal",
+                "fontSize": 12.0,
+                "overflow": "visible"
+            },
+            "medium4": {
+                "fontWeight": "500",
+                "fontStyle": "normal",
+                "fontSize": 28.0,
+                "overflow": "visible"
+            },
+            "semiBold1": {
+                "fontWeight": "600",
+                "fontStyle": "normal",
+                "fontSize": 8.0,
+                "overflow": "visible"
+            },
+            "semiBold2": {
+                "fontWeight": "600",
+                "fontStyle": "normal",
+                "fontSize": 12.0,
+                "overflow": "visible"
+            },
+            "semiBold3": {
+                "fontWeight": "600",
+                "fontStyle": "normal",
+                "fontSize": 14.0,
+                "overflow": "visible"
+            },
+            "semiBold4": {
+                "fontWeight": "600",
+                "fontStyle": "normal",
+                "fontSize": 16.0,
+                "overflow": "visible"
+            },
+            "semiBold5": {
+                "fontWeight": "600",
+                "fontStyle": "normal",
+                "fontSize": 20.0,
+                "overflow": "visible"
+            },
+            "semiBold6": {
+                "fontWeight": "600",
+                "fontStyle": "normal",
+                "fontSize": 22.0,
+                "overflow": "visible"
+            },
+            "bold1": {
+                "fontWeight": "700",
+                "fontStyle": "normal",
+                "fontSize": 10.0,
+                "overflow": "visible"
+            },
+            "bold2": {
+                "fontWeight": "700",
+                "fontStyle": "normal",
+                "fontSize": 12.0,
+                "overflow": "visible"
+            },
+            "bold3": {
+                "fontWeight": "700",
+                "fontStyle": "normal",
+                "fontSize": 14.0,
+                "overflow": "visible"
+            },
+            "bold4": {
+                "fontWeight": "700",
+                "fontStyle": "normal",
+                "fontSize": 18.0,
+                "overflow": "visible"
+            }
+        }
+    },
+    {
+        "name": "Secondary Theme",
+        "themeData": {
+            "primarySwatch": "ffFF9800",
+            "brightness": "light",
+            "fontFamily": "Inter",
+            "scaffoldBackgroundColor": "ffff12D"
+        },
+        "primaryInputTheme": {
+            "borderColor": "ff38404E",
+            "backgroundColor": "ff2F2F3B",
+            "textStyle": {
+                "color": "ffBFD4E4",
+                "fontFamily": "Inter",
+                "fontWeight": "600",
+                "fontSize": 14,
+                "overflow": "visible",
+                "height": 1
+            },
+            "decoration": {
+                "hintStyle": {
+                    "color": "ff94A1B9",
+                    "fontFamily": "Inter",
+                    "fontWeight": "400",
+                    "fontSize": 14,
+                    "overflow": "visible"
+                },
+                "border": "none",
+                "disabledBorder": "none",
+                "enabledBorder": "none",
+                "focusedBorder": "none"
+            },
+            "helpTextStyle": {
+                "color": "ffF07A7A",
+                "fontWeight": "400",
+                "fontFamily": "Inter",
+                "fontStyle": "normal",
+                "fontSize": 14,
+                "overflow": "visible"
+            }
+        },
+        "secondaryInputTheme": {
+            "borderColor": null,
+            "backgroundColor": null,
+            "textStyle": null,
+            "decoration": {},
+            "helpTextStyle": null
+        },
+        "tertiaryInputTheme": {
+            "borderColor": null,
+            "backgroundColor": null,
+            "textStyle": null,
+            "decoration": {
+                "contentPadding": {
+                    "right": 5,
+                    "left": 5,
+                    "top": 0,
+                    "bottom": 0
+                },
+                "border": "outline"
+            },
+            "helpTextStyle": null
+        },
+        "shadowFirstColor": "ff3d3f52",
+        "shadowSecondColor": "ff292a3a",
+        "primaryCheckboxActiveColor": "ff64B55F",
+        "primaryRadioActiveColor": "ff64B55F",
+        "primarySwitchActiveColor": "ff64B55F",
+        "approvedColor": "ff64B55F",
+        "checkedInIconColor": "ff64B55F",
+        "badgeColor": "ffF07A7A",
+        "borderColor": "ff748092",
+        "primaryCheckboxBorder": {
+            "colors": [
+                "ff94A1B9",
+                "ffD2DCEA"
+            ],
+            "begin": "topLeft",
+            "end": "bottomRight",
+            "stops": [
+                0.0,
+                1.0
+            ],
+            "tileMode": "clamp"
+        },
+        "primaryCheckboxColor": "ffF1F7FE",
+        "primaryCheckColor": "ffffffff",
+        "toggleBackgroundColor": "ff15151E",
+        "toggleSelectedColor": "ffD2DCEA",
+        "toggleUnSelectedColor": "28D2DCEA",
+        "innerColor": "FF2F2F3B",
+        "loadingColor": "80FFFFFF",
+        "switchThumbColor": "ffffffff",
+        "choiceChipSelectedColor": "FFD2DCEA",
+        "choiceChipDisabledColor": "FF15151E",
+        "avatarBackgroundColor": "FF646574",
+        "primaryButtonTheme": {
+            "buttonStyle": {
+                "color": "FFffB55F"
+            },
+            "disabledButtonColor": "4EC6FFD6",
+            "borderButtonDecoration": {
+                "gradient": {
+                    "colors": [
+                        "FF90D88A",
+                        "ff58A253"
+                    ]
+                }
+            },
+            "buttonTextStyle": {
+                "color": "ffffffff",
+                "fontWeight":"600",
+                "fontSize":12
+            },
+            "disabledTextButtonColor": "80FFFFFF",
+            "buttonDecoration": null
+        },
+        "secondaryButtonTheme": {
+            "buttonStyle": {
+                "color": "FF15151E"
+            },
+            "disabledButtonColor": "4D15151E",
+            "borderButtonDecoration": null,
+            "buttonTextStyle": {
+                "color": "FFC6FFD6"
+            },
+            "disabledTextButtonColor": "80FFFFFF",
+            "buttonDecoration": null
+        },
+        "tertiaryButtonTheme": {
+            "buttonStyle": {
+                "color": "ffF9BB3A",
+                "overlayColor": "FFD99F27"
+            },
+            "disabledButtonColor": "4DF9BB3A",
+            "borderButtonDecoration": null,
+            "buttonTextStyle": {
+                "color": "FF38404E",
+                "fontWeight":"600",
+                "fontSize":12
+            },
+            "disabledTextButtonColor": "6638404E",
+            "buttonDecoration": null
+        },
+        "accentButtonTheme": {
+            "buttonStyle": {
+                "color": "FF32C5FF"
+            },
+            "disabledButtonColor": null,
+            "borderButtonDecoration": null,
+            "buttonTextStyle": {
+                "color": "ffffffff",
+                "fontWeight":"600",
+                "fontSize":12
+            },
+            "disabledTextButtonColor": null,
+            "buttonDecoration": null
+        },
+        "dangerButtonTheme": {
+            "buttonStyle": {
+                "color": "FFF07A7A"
+            },
+            "disabledButtonColor": null,
+            "borderButtonDecoration": {
+                "gradient": {
+                    "colors": [
+                        "00D9D9D9",
+                        "80D9D9D9"
+                    ]
+                }
+            },
+            "buttonTextStyle": {
+                "color": "ffffffff",
+                "fontWeight":"600",
+                "fontSize":12
+            },
+            "disabledTextButtonColor": null,
+            "buttonDecoration": null
+        },
+        "primaryBackgroundColor": "FF21212D",
+        "modalsBackgroundColor": "FFa0dbae",
+        "loadingBackgroundColor": "FFa0dbae",
+        "attendanceApprovedDecoration": {
+            "borderRadius": 50,
+            "color": "FF64B55F"
+        },
+        "shapeBoxDecoration": {
+            "gradient": {
+                "colors": [
+                    "ffccDCEA",
+                    "ffcc55FE"
+                ],
+                "begin": "topLeft",
+                "end": "bottomRight"
+            },
+            "borderRadius": 5
+        },
+        "disabledShapeBoxDecoration": {
+            "gradient": {
+                "colors": [
+                    "6DD2DCEA",
+                    "6DF1F7FE"
+                ],
+                "begin": "topLeft",
+                "end": "bottomRight"
+            },
+            "borderRadius": 5
+        },
+        "shapeBoxTextStyle": {
+            "fontSize": 11.0,
+            "color": "FFe6dcdd",
+            "fontFamily": "Inter",
+            "overflow": "visible"
+        },
+        "disabledShapeBoxTextStyle": {
+            "fontSize": 11.0,
+            "color": "A638404E",
+            "fontFamily": "Inter",
+            "overflow": "visible"
+        },
+        "shapeBoxIconColor": "FF38404E",
+        "disabledShapeBoxIconColor": "A638404E",
+        "cardDecoration": {
+            "gradient": {
+                "type": "radial",
+                "colors": [
+                    "ff3D3F52",
+                    "ff292A3A"
+                ]
+            }
+        },
+        "cardBorderDecoration": {
+            "gradient": {
+                "type": "radial",
+                "colors": [
+                    "ff424F5B",
+                    "ff262534"
+                ]
+            }
+        },
+        "gradientDivider": {
+            "colors": [
+                "0038404E",
+                "ff38404E",
+                "ff38404E",
+                "0038404E"
+            ]
+        },
+        "checkInTypeButtonColor": "ffF9BB3A",
+        "checkInTypeButtonTextColor": "ff38404E",
+        "checkInTypeButtonGradientBorderColor": {
+            "colors": [
+                "ffFFDD62",
+                "ffF9BB3A"
+            ]
+        },
+        "warningColor": "ffF9BB3A",
+        "dangerColor": "ffF07A7A",
+        "attendanceReportStatusColor": {
+            "successColor": "4caf50",
+            "infoColor": "15a9ff",
+            "defaultColor": "aaaaaa",
+            "dangerColor": "e12425",
+            "cautionColor": "ffc107",
+            "warningColor": "ff8c00"
+        },
+        "dangerBorderColor": "ff950B0B",
+        "dangerBorderGradientColor": {
+            "colors": [
+                "ffFB6D6D",
+                "ffD04848"
+            ]
+        },
+        "selectedBottomNavColor": "33FFFFFF",
+        "bottomNavigationGradient": {
+            "begin": "topCenter",
+            "end": "bottomCenter",
+            "stops": [
+                0.4,
+                1
+            ],
+            "colors": [
+                "ff020087",
+                "ff4f4e9c"
+            ]
+        },
+        "primaryIconColor": "FFBFD4E4",
+        "accentIconColor": "FF32C5FF",
+        "secondaryIconColor": "FFC6FFD6",
+        "primaryTextStyle": {
+            "color": "FFBFD4E4",
+            "regular1": {
+                "fontWeight": "400",
+                "fontStyle": "normal",
+                "fontSize": 10.0,
+                "overflow": "visible"
+            },
+            "regular2": {
+                "fontWeight": "400",
+                "fontStyle": "normal",
+                "fontSize": 12.0,
+                "overflow": "visible"
+            },
+            "regular3": {
+                "fontWeight": "400",
+                "fontStyle": "normal",
+                "fontSize": 14.0,
+                "overflow": "visible"
+            },
+            "regular4": {
+                "fontWeight": "400",
+                "fontStyle": "normal",
+                "fontSize": 16.0,
+                "overflow": "visible"
+            },
+            "medium1": {
+                "fontWeight": "500",
+                "fontStyle": "normal",
+                "fontSize": 9.0,
+                "overflow": "visible"
+            },
+            "medium2": {
+                "fontWeight": "500",
+                "fontStyle": "normal",
+                "fontSize": 10.0,
+                "overflow": "visible"
+            },
+            "medium3": {
+                "fontWeight": "500",
+                "fontStyle": "normal",
+                "fontSize": 12.0,
+                "overflow": "visible"
+            },
+            "medium4": {
+                "fontWeight": "500",
+                "fontStyle": "normal",
+                "fontSize": 28.0,
+                "overflow": "visible"
+            },
+            "semiBold1": {
+                "fontWeight": "600",
+                "fontStyle": "normal",
+                "fontSize": 8.0,
+                "overflow": "visible"
+            },
+            "semiBold2": {
+                "fontWeight": "600",
+                "fontStyle": "normal",
+                "fontSize": 12.0,
+                "overflow": "visible"
+            },
+            "semiBold3": {
+                "fontWeight": "600",
+                "fontStyle": "normal",
+                "fontSize": 14.0,
+                "overflow": "visible"
+            },
+            "semiBold4": {
+                "fontWeight": "600",
+                "fontStyle": "normal",
+                "fontSize": 16.0,
+                "overflow": "visible"
+            },
+            "semiBold5": {
+                "fontWeight": "600",
+                "fontStyle": "normal",
+                "fontSize": 20.0,
+                "overflow": "visible"
+            },
+            "semiBold6": {
+                "fontWeight": "600",
+                "fontStyle": "normal",
+                "fontSize": 22.0,
+                "overflow": "visible"
+            },
+            "bold1": {
+                "fontWeight": "700",
+                "fontStyle": "normal",
+                "fontSize": 10.0,
+                "overflow": "visible"
+            },
+            "bold2": {
+                "fontWeight": "700",
+                "fontStyle": "normal",
+                "fontSize": 12.0,
+                "overflow": "visible"
+            },
+            "bold3": {
+                "fontWeight": "700",
+                "fontStyle": "normal",
+                "fontSize": 14.0,
+                "overflow": "visible"
+            },
+            "bold4": {
+                "fontWeight": "700",
+                "fontStyle": "normal",
+                "fontSize": 18.0,
+                "overflow": "visible"
+            }
+        },
+        "secondaryTextStyle": {
+            "color": "ff000000",
+            "regular1": {
+                "fontWeight": "400",
+                "fontStyle": "normal",
+                "fontSize": 10.0,
+                "overflow": "visible"
+            },
+            "regular2": {
+                "fontWeight": "400",
+                "fontStyle": "normal",
+                "fontSize": 12.0,
+                "overflow": "visible"
+            },
+            "regular3": {
+                "fontWeight": "400",
+                "fontStyle": "normal",
+                "fontSize": 14.0,
+                "overflow": "visible"
+            },
+            "regular4": {
+                "fontWeight": "400",
+                "fontStyle": "normal",
+                "fontSize": 16.0,
+                "overflow": "visible"
+            },
+            "medium1": {
+                "fontWeight": "500",
+                "fontStyle": "normal",
+                "fontSize": 9.0,
+                "overflow": "visible"
+            },
+            "medium2": {
+                "fontWeight": "500",
+                "fontStyle": "normal",
+                "fontSize": 10.0,
+                "overflow": "visible"
+            },
+            "medium3": {
+                "fontWeight": "500",
+                "fontStyle": "normal",
+                "fontSize": 12.0,
+                "overflow": "visible"
+            },
+            "medium4": {
+                "fontWeight": "500",
+                "fontStyle": "normal",
+                "fontSize": 28.0,
+                "overflow": "visible"
+            },
+            "semiBold1": {
+                "fontWeight": "600",
+                "fontStyle": "normal",
+                "fontSize": 8.0,
+                "overflow": "visible"
+            },
+            "semiBold2": {
+                "fontWeight": "600",
+                "fontStyle": "normal",
+                "fontSize": 12.0,
+                "overflow": "visible"
+            },
+            "semiBold3": {
+                "fontWeight": "600",
+                "fontStyle": "normal",
+                "fontSize": 14.0,
+                "overflow": "visible"
+            },
+            "semiBold4": {
+                "fontWeight": "600",
+                "fontStyle": "normal",
+                "fontSize": 16.0,
+                "overflow": "visible"
+            },
+            "semiBold5": {
+                "fontWeight": "600",
+                "fontStyle": "normal",
+                "fontSize": 20.0,
+                "overflow": "visible"
+            },
+            "semiBold6": {
+                "fontWeight": "600",
+                "fontStyle": "normal",
+                "fontSize": 22.0,
+                "overflow": "visible"
+            },
+            "bold1": {
+                "fontWeight": "700",
+                "fontStyle": "normal",
+                "fontSize": 10.0,
+                "overflow": "visible"
+            },
+            "bold2": {
+                "fontWeight": "700",
+                "fontStyle": "normal",
+                "fontSize": 12.0,
+                "overflow": "visible"
+            },
+            "bold3": {
+                "fontWeight": "700",
+                "fontStyle": "normal",
+                "fontSize": 14.0,
+                "overflow": "visible"
+            },
+            "bold4": {
+                "fontWeight": "700",
+                "fontStyle": "normal",
+                "fontSize": 18.0,
+                "overflow": "visible"
+            }
+        },
+        "tertiaryTextStyle": {
+            "color": "FF94A1B9",
+            "regular1": {
+                "fontWeight": "400",
+                "fontStyle": "normal",
+                "fontSize": 10.0,
+                "overflow": "visible"
+            },
+            "regular2": {
+                "fontWeight": "400",
+                "fontStyle": "normal",
+                "fontSize": 12.0,
+                "overflow": "visible"
+            },
+            "regular3": {
+                "fontWeight": "400",
+                "fontStyle": "normal",
+                "fontSize": 14.0,
+                "overflow": "visible"
+            },
+            "regular4": {
+                "fontWeight": "400",
+                "fontStyle": "normal",
+                "fontSize": 16.0,
+                "overflow": "visible"
+            },
+            "medium1": {
+                "fontWeight": "500",
+                "fontStyle": "normal",
+                "fontSize": 9.0,
+                "overflow": "visible"
+            },
+            "medium2": {
+                "fontWeight": "500",
+                "fontStyle": "normal",
+                "fontSize": 10.0,
+                "overflow": "visible"
+            },
+            "medium3": {
+                "fontWeight": "500",
+                "fontStyle": "normal",
+                "fontSize": 12.0,
+                "overflow": "visible"
+            },
+            "medium4": {
+                "fontWeight": "500",
+                "fontStyle": "normal",
+                "fontSize": 28.0,
+                "overflow": "visible"
+            },
+            "semiBold1": {
+                "fontWeight": "600",
+                "fontStyle": "normal",
+                "fontSize": 8.0,
+                "overflow": "visible"
+            },
+            "semiBold2": {
+                "fontWeight": "600",
+                "fontStyle": "normal",
+                "fontSize": 12.0,
+                "overflow": "visible"
+            },
+            "semiBold3": {
+                "fontWeight": "600",
+                "fontStyle": "normal",
+                "fontSize": 14.0,
+                "overflow": "visible"
+            },
+            "semiBold4": {
+                "fontWeight": "600",
+                "fontStyle": "normal",
+                "fontSize": 16.0,
+                "overflow": "visible"
+            },
+            "semiBold5": {
+                "fontWeight": "600",
+                "fontStyle": "normal",
+                "fontSize": 20.0,
+                "overflow": "visible"
+            },
+            "semiBold6": {
+                "fontWeight": "600",
+                "fontStyle": "normal",
+                "fontSize": 22.0,
+                "overflow": "visible"
+            },
+            "bold1": {
+                "fontWeight": "700",
+                "fontStyle": "normal",
+                "fontSize": 10.0,
+                "overflow": "visible"
+            },
+            "bold2": {
+                "fontWeight": "700",
+                "fontStyle": "normal",
+                "fontSize": 12.0,
+                "overflow": "visible"
+            },
+            "bold3": {
+                "fontWeight": "700",
+                "fontStyle": "normal",
+                "fontSize": 14.0,
+                "overflow": "visible"
+            },
+            "bold4": {
+                "fontWeight": "700",
+                "fontStyle": "normal",
+                "fontSize": 18.0,
+                "overflow": "visible"
+            }
+        },
+        "quarterlyTextStyle": {
+            "color": "FFD2DCEA",
+            "regular1": {
+                "fontWeight": "400",
+                "fontStyle": "normal",
+                "fontSize": 10.0,
+                "overflow": "visible"
+            },
+            "regular2": {
+                "fontWeight": "400",
+                "fontStyle": "normal",
+                "fontSize": 12.0,
+                "overflow": "visible"
+            },
+            "regular3": {
+                "fontWeight": "400",
+                "fontStyle": "normal",
+                "fontSize": 14.0,
+                "overflow": "visible"
+            },
+            "regular4": {
+                "fontWeight": "400",
+                "fontStyle": "normal",
+                "fontSize": 16.0,
+                "overflow": "visible"
+            },
+            "medium1": {
+                "fontWeight": "500",
+                "fontStyle": "normal",
+                "fontSize": 9.0,
+                "overflow": "visible"
+            },
+            "medium2": {
+                "fontWeight": "500",
+                "fontStyle": "normal",
+                "fontSize": 10.0,
+                "overflow": "visible"
+            },
+            "medium3": {
+                "fontWeight": "500",
+                "fontStyle": "normal",
+                "fontSize": 12.0,
+                "overflow": "visible"
+            },
+            "medium4": {
+                "fontWeight": "500",
+                "fontStyle": "normal",
+                "fontSize": 28.0,
+                "overflow": "visible"
+            },
+            "semiBold1": {
+                "fontWeight": "600",
+                "fontStyle": "normal",
+                "fontSize": 8.0,
+                "overflow": "visible"
+            },
+            "semiBold2": {
+                "fontWeight": "600",
+                "fontStyle": "normal",
+                "fontSize": 12.0,
+                "overflow": "visible"
+            },
+            "semiBold3": {
+                "fontWeight": "600",
+                "fontStyle": "normal",
+                "fontSize": 14.0,
+                "overflow": "visible"
+            },
+            "semiBold4": {
+                "fontWeight": "600",
+                "fontStyle": "normal",
+                "fontSize": 16.0,
+                "overflow": "visible"
+            },
+            "semiBold5": {
+                "fontWeight": "600",
+                "fontStyle": "normal",
+                "fontSize": 20.0,
+                "overflow": "visible"
+            },
+            "semiBold6": {
+                "fontWeight": "600",
+                "fontStyle": "normal",
+                "fontSize": 22.0,
+                "overflow": "visible"
+            },
+            "bold1": {
+                "fontWeight": "700",
+                "fontStyle": "normal",
+                "fontSize": 10.0,
+                "overflow": "visible"
+            },
+            "bold2": {
+                "fontWeight": "700",
+                "fontStyle": "normal",
+                "fontSize": 12.0,
+                "overflow": "visible"
+            },
+            "bold3": {
+                "fontWeight": "700",
+                "fontStyle": "normal",
+                "fontSize": 14.0,
+                "overflow": "visible"
+            },
+            "bold4": {
+                "fontWeight": "700",
+                "fontStyle": "normal",
+                "fontSize": 18.0,
+                "overflow": "visible"
+            }
+        },
+        "fifthTextStyle": {
+            "color": "FF15151E",
+            "regular1": {
+                "fontWeight": "400",
+                "fontStyle": "normal",
+                "fontSize": 10.0,
+                "overflow": "visible"
+            },
+            "regular2": {
+                "fontWeight": "400",
+                "fontStyle": "normal",
+                "fontSize": 12.0,
+                "overflow": "visible"
+            },
+            "regular3": {
+                "fontWeight": "400",
+                "fontStyle": "normal",
+                "fontSize": 14.0,
+                "overflow": "visible"
+            },
+            "regular4": {
+                "fontWeight": "400",
+                "fontStyle": "normal",
+                "fontSize": 16.0,
+                "overflow": "visible"
+            },
+            "medium1": {
+                "fontWeight": "500",
+                "fontStyle": "normal",
+                "fontSize": 9.0,
+                "overflow": "visible"
+            },
+            "medium2": {
+                "fontWeight": "500",
+                "fontStyle": "normal",
+                "fontSize": 10.0,
+                "overflow": "visible"
+            },
+            "medium3": {
+                "fontWeight": "500",
+                "fontStyle": "normal",
+                "fontSize": 12.0,
+                "overflow": "visible"
+            },
+            "medium4": {
+                "fontWeight": "500",
+                "fontStyle": "normal",
+                "fontSize": 28.0,
+                "overflow": "visible"
+            },
+            "semiBold1": {
+                "fontWeight": "600",
+                "fontStyle": "normal",
+                "fontSize": 8.0,
+                "overflow": "visible"
+            },
+            "semiBold2": {
+                "fontWeight": "600",
+                "fontStyle": "normal",
+                "fontSize": 12.0,
+                "overflow": "visible"
+            },
+            "semiBold3": {
+                "fontWeight": "600",
+                "fontStyle": "normal",
+                "fontSize": 14.0,
+                "overflow": "visible"
+            },
+            "semiBold4": {
+                "fontWeight": "600",
+                "fontStyle": "normal",
+                "fontSize": 16.0,
+                "overflow": "visible"
+            },
+            "semiBold5": {
+                "fontWeight": "600",
+                "fontStyle": "normal",
+                "fontSize": 20.0,
+                "overflow": "visible"
+            },
+            "semiBold6": {
+                "fontWeight": "600",
+                "fontStyle": "normal",
+                "fontSize": 22.0,
+                "overflow": "visible"
+            },
+            "bold1": {
+                "fontWeight": "700",
+                "fontStyle": "normal",
+                "fontSize": 10.0,
+                "overflow": "visible"
+            },
+            "bold2": {
+                "fontWeight": "700",
+                "fontStyle": "normal",
+                "fontSize": 12.0,
+                "overflow": "visible"
+            },
+            "bold3": {
+                "fontWeight": "700",
+                "fontStyle": "normal",
+                "fontSize": 14.0,
+                "overflow": "visible"
+            },
+            "bold4": {
+                "fontWeight": "700",
+                "fontStyle": "normal",
+                "fontSize": 18.0,
+                "overflow": "visible"
+            }
+        },
+        "sixthTextStyle": {
+            "color": "FFC6FFD6",
+            "regular1": {
+                "fontWeight": "400",
+                "fontStyle": "normal",
+                "fontSize": 10.0,
+                "overflow": "visible"
+            },
+            "regular2": {
+                "fontWeight": "400",
+                "fontStyle": "normal",
+                "fontSize": 12.0,
+                "overflow": "visible"
+            },
+            "regular3": {
+                "fontWeight": "400",
+                "fontStyle": "normal",
+                "fontSize": 14.0,
+                "overflow": "visible"
+            },
+            "regular4": {
+                "fontWeight": "400",
+                "fontStyle": "normal",
+                "fontSize": 16.0,
+                "overflow": "visible"
+            },
+            "medium1": {
+                "fontWeight": "500",
+                "fontStyle": "normal",
+                "fontSize": 9.0,
+                "overflow": "visible"
+            },
+            "medium2": {
+                "fontWeight": "500",
+                "fontStyle": "normal",
+                "fontSize": 10.0,
+                "overflow": "visible"
+            },
+            "medium3": {
+                "fontWeight": "500",
+                "fontStyle": "normal",
+                "fontSize": 12.0,
+                "overflow": "visible"
+            },
+            "medium4": {
+                "fontWeight": "500",
+                "fontStyle": "normal",
+                "fontSize": 28.0,
+                "overflow": "visible"
+            },
+            "semiBold1": {
+                "fontWeight": "600",
+                "fontStyle": "normal",
+                "fontSize": 8.0,
+                "overflow": "visible"
+            },
+            "semiBold2": {
+                "fontWeight": "600",
+                "fontStyle": "normal",
+                "fontSize": 12.0,
+                "overflow": "visible"
+            },
+            "semiBold3": {
+                "fontWeight": "600",
+                "fontStyle": "normal",
+                "fontSize": 14.0,
+                "overflow": "visible"
+            },
+            "semiBold4": {
+                "fontWeight": "600",
+                "fontStyle": "normal",
+                "fontSize": 16.0,
+                "overflow": "visible"
+            },
+            "semiBold5": {
+                "fontWeight": "600",
+                "fontStyle": "normal",
+                "fontSize": 20.0,
+                "overflow": "visible"
+            },
+            "semiBold6": {
+                "fontWeight": "600",
+                "fontStyle": "normal",
+                "fontSize": 22.0,
+                "overflow": "visible"
+            },
+            "bold1": {
+                "fontWeight": "700",
+                "fontStyle": "normal",
+                "fontSize": 10.0,
+                "overflow": "visible"
+            },
+            "bold2": {
+                "fontWeight": "700",
+                "fontStyle": "normal",
+                "fontSize": 12.0,
+                "overflow": "visible"
+            },
+            "bold3": {
+                "fontWeight": "700",
+                "fontStyle": "normal",
+                "fontSize": 14.0,
+                "overflow": "visible"
+            },
+            "bold4": {
+                "fontWeight": "700",
+                "fontStyle": "normal",
+                "fontSize": 18.0,
+                "overflow": "visible"
+            }
+        },
+        "warningTextStyle": {
+            "color": "FFF9BB3A",
+            "regular1": {
+                "fontWeight": "400",
+                "fontStyle": "normal",
+                "fontSize": 10.0,
+                "overflow": "visible"
+            },
+            "regular2": {
+                "fontWeight": "400",
+                "fontStyle": "normal",
+                "fontSize": 12.0,
+                "overflow": "visible"
+            },
+            "regular3": {
+                "fontWeight": "400",
+                "fontStyle": "normal",
+                "fontSize": 14.0,
+                "overflow": "visible"
+            },
+            "regular4": {
+                "fontWeight": "400",
+                "fontStyle": "normal",
+                "fontSize": 16.0,
+                "overflow": "visible"
+            },
+            "medium1": {
+                "fontWeight": "500",
+                "fontStyle": "normal",
+                "fontSize": 9.0,
+                "overflow": "visible"
+            },
+            "medium2": {
+                "fontWeight": "500",
+                "fontStyle": "normal",
+                "fontSize": 10.0,
+                "overflow": "visible"
+            },
+            "medium3": {
+                "fontWeight": "500",
+                "fontStyle": "normal",
+                "fontSize": 12.0,
+                "overflow": "visible"
+            },
+            "medium4": {
+                "fontWeight": "500",
+                "fontStyle": "normal",
+                "fontSize": 28.0,
+                "overflow": "visible"
+            },
+            "semiBold1": {
+                "fontWeight": "600",
+                "fontStyle": "normal",
+                "fontSize": 8.0,
+                "overflow": "visible"
+            },
+            "semiBold2": {
+                "fontWeight": "600",
+                "fontStyle": "normal",
+                "fontSize": 12.0,
+                "overflow": "visible"
+            },
+            "semiBold3": {
+                "fontWeight": "600",
+                "fontStyle": "normal",
+                "fontSize": 14.0,
+                "overflow": "visible"
+            },
+            "semiBold4": {
+                "fontWeight": "600",
+                "fontStyle": "normal",
+                "fontSize": 16.0,
+                "overflow": "visible"
+            },
+            "semiBold5": {
+                "fontWeight": "600",
+                "fontStyle": "normal",
+                "fontSize": 20.0,
+                "overflow": "visible"
+            },
+            "semiBold6": {
+                "fontWeight": "600",
+                "fontStyle": "normal",
+                "fontSize": 22.0,
+                "overflow": "visible"
+            },
+            "bold1": {
+                "fontWeight": "700",
+                "fontStyle": "normal",
+                "fontSize": 10.0,
+                "overflow": "visible"
+            },
+            "bold2": {
+                "fontWeight": "700",
+                "fontStyle": "normal",
+                "fontSize": 12.0,
+                "overflow": "visible"
+            },
+            "bold3": {
+                "fontWeight": "700",
+                "fontStyle": "normal",
+                "fontSize": 14.0,
+                "overflow": "visible"
+            },
+            "bold4": {
+                "fontWeight": "700",
+                "fontStyle": "normal",
+                "fontSize": 18.0,
+                "overflow": "visible"
+            }
+        },
+        "dangerTextStyle": {
+            "color": "FFF07A7A",
+            "regular1": {
+                "fontWeight": "400",
+                "fontStyle": "normal",
+                "fontSize": 10.0,
+                "overflow": "visible"
+            },
+            "regular2": {
+                "fontWeight": "400",
+                "fontStyle": "normal",
+                "fontSize": 12.0,
+                "overflow": "visible"
+            },
+            "regular3": {
+                "fontWeight": "400",
+                "fontStyle": "normal",
+                "fontSize": 14.0,
+                "overflow": "visible"
+            },
+            "regular4": {
+                "fontWeight": "400",
+                "fontStyle": "normal",
+                "fontSize": 16.0,
+                "overflow": "visible"
+            },
+            "medium1": {
+                "fontWeight": "500",
+                "fontStyle": "normal",
+                "fontSize": 9.0,
+                "overflow": "visible"
+            },
+            "medium2": {
+                "fontWeight": "500",
+                "fontStyle": "normal",
+                "fontSize": 10.0,
+                "overflow": "visible"
+            },
+            "medium3": {
+                "fontWeight": "500",
+                "fontStyle": "normal",
+                "fontSize": 12.0,
+                "overflow": "visible"
+            },
+            "medium4": {
+                "fontWeight": "500",
+                "fontStyle": "normal",
+                "fontSize": 28.0,
+                "overflow": "visible"
+            },
+            "semiBold1": {
+                "fontWeight": "600",
+                "fontStyle": "normal",
+                "fontSize": 8.0,
+                "overflow": "visible"
+            },
+            "semiBold2": {
+                "fontWeight": "600",
+                "fontStyle": "normal",
+                "fontSize": 12.0,
+                "overflow": "visible"
+            },
+            "semiBold3": {
+                "fontWeight": "600",
+                "fontStyle": "normal",
+                "fontSize": 14.0,
+                "overflow": "visible"
+            },
+            "semiBold4": {
+                "fontWeight": "600",
+                "fontStyle": "normal",
+                "fontSize": 16.0,
+                "overflow": "visible"
+            },
+            "semiBold5": {
+                "fontWeight": "600",
+                "fontStyle": "normal",
+                "fontSize": 20.0,
+                "overflow": "visible"
+            },
+            "semiBold6": {
+                "fontWeight": "600",
+                "fontStyle": "normal",
+                "fontSize": 22.0,
+                "overflow": "visible"
+            },
+            "bold1": {
+                "fontWeight": "700",
+                "fontStyle": "normal",
+                "fontSize": 10.0,
+                "overflow": "visible"
+            },
+            "bold2": {
+                "fontWeight": "700",
+                "fontStyle": "normal",
+                "fontSize": 12.0,
+                "overflow": "visible"
+            },
+            "bold3": {
+                "fontWeight": "700",
+                "fontStyle": "normal",
+                "fontSize": 14.0,
+                "overflow": "visible"
+            },
+            "bold4": {
+                "fontWeight": "700",
+                "fontStyle": "normal",
+                "fontSize": 18.0,
+                "overflow": "visible"
+            }
+        },
+        "approvedTextStyle": {
+            "color": "FF64B55F",
+            "regular1": {
+                "fontWeight": "400",
+                "fontStyle": "normal",
+                "fontSize": 10.0,
+                "overflow": "visible"
+            },
+            "regular2": {
+                "fontWeight": "400",
+                "fontStyle": "normal",
+                "fontSize": 12.0,
+                "overflow": "visible"
+            },
+            "regular3": {
+                "fontWeight": "400",
+                "fontStyle": "normal",
+                "fontSize": 14.0,
+                "overflow": "visible"
+            },
+            "regular4": {
+                "fontWeight": "400",
+                "fontStyle": "normal",
+                "fontSize": 16.0,
+                "overflow": "visible"
+            },
+            "medium1": {
+                "fontWeight": "500",
+                "fontStyle": "normal",
+                "fontSize": 9.0,
+                "overflow": "visible"
+            },
+            "medium2": {
+                "fontWeight": "500",
+                "fontStyle": "normal",
+                "fontSize": 10.0,
+                "overflow": "visible"
+            },
+            "medium3": {
+                "fontWeight": "500",
+                "fontStyle": "normal",
+                "fontSize": 12.0,
+                "overflow": "visible"
+            },
+            "medium4": {
+                "fontWeight": "500",
+                "fontStyle": "normal",
+                "fontSize": 28.0,
+                "overflow": "visible"
+            },
+            "semiBold1": {
+                "fontWeight": "600",
+                "fontStyle": "normal",
+                "fontSize": 8.0,
+                "overflow": "visible"
+            },
+            "semiBold2": {
+                "fontWeight": "600",
+                "fontStyle": "normal",
+                "fontSize": 12.0,
+                "overflow": "visible"
+            },
+            "semiBold3": {
+                "fontWeight": "600",
+                "fontStyle": "normal",
+                "fontSize": 14.0,
+                "overflow": "visible"
+            },
+            "semiBold4": {
+                "fontWeight": "600",
+                "fontStyle": "normal",
+                "fontSize": 16.0,
+                "overflow": "visible"
+            },
+            "semiBold5": {
+                "fontWeight": "600",
+                "fontStyle": "normal",
+                "fontSize": 20.0,
+                "overflow": "visible"
+            },
+            "semiBold6": {
+                "fontWeight": "600",
+                "fontStyle": "normal",
+                "fontSize": 22.0,
+                "overflow": "visible"
+            },
+            "bold1": {
+                "fontWeight": "700",
+                "fontStyle": "normal",
+                "fontSize": 10.0,
+                "overflow": "visible"
+            },
+            "bold2": {
+                "fontWeight": "700",
+                "fontStyle": "normal",
+                "fontSize": 12.0,
+                "overflow": "visible"
+            },
+            "bold3": {
+                "fontWeight": "700",
+                "fontStyle": "normal",
+                "fontSize": 14.0,
+                "overflow": "visible"
+            },
+            "bold4": {
+                "fontWeight": "700",
+                "fontStyle": "normal",
+                "fontSize": 18.0,
+                "overflow": "visible"
+            }
+        }
+    }
+]
