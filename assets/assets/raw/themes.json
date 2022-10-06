@@ -279,6 +279,7 @@
             "cautionColor": "ffc107",
             "warningColor": "ff8c00"
         },
+        "loadingProgressColor" : "ffFFFFFF",
         "dangerBorderColor": "ff950B0B",
         "dangerBorderGradientColor": {
             "colors": [
@@ -1568,6 +1569,7 @@
             "cautionColor": "ffc107",
             "warningColor": "ff8c00"
         },
+        "loadingProgressColor" : "ffFFFFFF",
         "dangerBorderColor": "ff950B0B",
         "dangerBorderGradientColor": {
             "colors": [
