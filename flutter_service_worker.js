@@ -157,7 +157,7 @@ const RESOURCES = {
 "assets/assets/whatsnew/whatsnew.json": "d51fd0d5516f0927d48926ad5eb009ed",
 "assets/FontManifest.json": "dac88ca741ecc1a034d93a4edfd9a08b",
 "assets/fonts/MaterialIcons-Regular.otf": "95db9098c58fd6db106f1116bae85a0b",
-"assets/NOTICES": "66460b653753f5dda621a3302c5fb770",
+"assets/NOTICES": "076b997c5eec82e379997ae40205cfec",
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "6d342eb68f170c97609e9da345464e5e",
 "assets/packages/flag/res/1x1/ac.svg": "41f2bc1a075c4003696bd3e8030c1dc6",
 "assets/packages/flag/res/1x1/ad.svg": "b2946bd89485be3b8b641a5385634bb3",
@@ -695,17 +695,16 @@ const RESOURCES = {
 "assets/packages/font_awesome_flutter/lib/fonts/fa-regular-400.ttf": "5178af1d278432bec8fc830d50996d6f",
 "assets/packages/font_awesome_flutter/lib/fonts/fa-solid-900.ttf": "aa1ec80f1b30a51d64c72f669c1326a7",
 "assets/packages/wakelock_web/assets/no_sleep.js": "7748a45cd593f33280669b29c2c8919a",
-"assets/shaders/ink_sparkle.frag": "a650f8011564fa150909d6cea12bf78e",
-"canvaskit/canvaskit.js": "2bc454a691c631b07a9307ac4ca47797",
-"canvaskit/canvaskit.wasm": "bf50631470eb967688cca13ee181af62",
-"canvaskit/profiling/canvaskit.js": "38164e5a72bdad0faa4ce740c9b8e564",
-"canvaskit/profiling/canvaskit.wasm": "95a45378b69e77af5ed2bc72b2209b94",
+"canvaskit/canvaskit.js": "c2b4e5f3d7a3d82aed024e7249a78487",
+"canvaskit/canvaskit.wasm": "4b83d89d9fecbea8ca46f2f760c5a9ba",
+"canvaskit/profiling/canvaskit.js": "ae2949af4efc61d28a4a80fffa1db900",
+"canvaskit/profiling/canvaskit.wasm": "95e736ab31147d1b2c7b25f11d4c32cd",
 "favicon.png": "24f54a6ccf6b9a7a465402d0a1f73831",
-"flutter.js": "f85e6fb278b0fd20c349186fb46ae36d",
+"flutter.js": "0816e65a103ba8ba51b174eeeeb2cb67",
 "icons/Icon-192.png": "f0c4b5c4191aa6548ae7f60d3b8d143d",
 "icons/Icon-512.png": "5fbf6e0db7ac0081d9ed6040eaacec26",
-"index.html": "5e3896436bac2d4a0a1e2c88d2641257",
-"/": "5e3896436bac2d4a0a1e2c88d2641257",
+"index.html": "1ba2ce365024929f0ce84b3f653fafb3",
+"/": "1ba2ce365024929f0ce84b3f653fafb3",
 "js/firebase-analytics.8.6.1.js": "6ba91aec9be3d519252b43a07015790d",
 "js/firebase-app-8.10.1.js": "e61e2222bb927b79ef082a8274d1ebb7",
 "js/firebase-app.8.6.1.js": "d57d5d20ad6df085e315559df74e5e25",
@@ -715,7 +714,7 @@ const RESOURCES = {
 "js/libphonenumber.js": "60955cfaebefae2ba21f2fc71218ec14",
 "js/sfPdf/pdf.min.js": "91fd3cbf5911f7fb6ca2e47d4e815d4c",
 "js/sfPdf/pdf.worker.min.js": "649f56c18dcb61fc4700a04ab12c75d6",
-"main.dart.js": "bea693988fa65b9f1f47011ae2bb5fd8",
+"main.dart.js": "612a691063475c52902ad88135742f53",
 "manifest.json": "25ebe642a294008616b8e04ebb98b425",
 "sql-wasm.js": "3851e203bf6a9dface5a7d28405da971",
 "sql-wasm.wasm": "8b3b3fe7c9c611db53b9e43661bf38dd",
@@ -727,6 +726,7 @@ const RESOURCES = {
 const CORE = [
   "main.dart.js",
 "index.html",
+"assets/NOTICES",
 "assets/AssetManifest.json",
 "assets/FontManifest.json"];
 // During install, the TEMP cache is populated with the application shell files.
@@ -825,11 +825,9 @@ self.addEventListener("fetch", (event) => {
     .then((cache) =>  {
       return cache.match(event.request).then((response) => {
         // Either respond with the cached resource, or perform a fetch and
-        // lazily populate the cache only if the resource was successfully fetched.
+        // lazily populate the cache.
         return response || fetch(event.request).then((response) => {
-          if (response && Boolean(response.ok)) {
-            cache.put(event.request, response.clone());
-          }
+          cache.put(event.request, response.clone());
           return response;
         });
       })
