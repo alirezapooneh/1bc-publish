@@ -39,12 +39,6 @@
     </div>
   </div>
 
-  <!-- The core Firebase JS SDK is always required and must be listed first -->
-  <script src="js/firebase-app.8.6.1.js"></script>
-  <script src="js/firebase-analytics.8.6.1.js"></script>
-  <script src="js/firebase-firestore.8.6.1.js"></script>
-  <script src="js/firebase-messaging.8.6.1.js"></script>
-
   <script src="js/libphonenumber.js"></script>
 
   <script src="js/jsQR.min.js"></script>
@@ -55,30 +49,13 @@
   <script type="text/javascript">
     pdfjsLib.GlobalWorkerOptions.workerSrc = "js/sfPdf/pdf.worker.min.js";
   </script>
-  <script>
-    // Your web app's Firebase configuration
-    const firebaseConfig = {
-      apiKey: "AIzaSyDlDRTgIOh_lvTZ0vh43s_iRFbuPFwrnoU",
-      authDomain: "onebreadcrumb.firebaseapp.com",
-      databaseURL: "https://onebreadcrumb.firebaseio.com",
-      projectId: "onebreadcrumb",
-      storageBucket: "onebreadcrumb.appspot.com",
-      messagingSenderId: "297324950767",
-      appId: "1:297324950767:web:5c6e63de99b30ee8a8571a",
-      measurementId: "G-D6V2GEQP47"
-    };
-
-    // Initialize Firebase
-    firebase.initializeApp(firebaseConfig);
-    firebase.analytics();
-  </script>
   <!-- This script installs service_worker.js to provide PWA functionality to
        application. For more information, see:
        https://developers.google.com/web/fundamentals/primers/service-workers -->
   <script>
     if ('serviceWorker' in navigator) {
       window.addEventListener('load', function () {
-        navigator.serviceWorker.register('flutter_service_worker.js?v=2002076109');
+        navigator.serviceWorker.register('flutter_service_worker.js?v=4113244755');
       });
     }
   </script>
@@ -91,7 +68,7 @@
   }
   catch{}
   </script>
-  <script src="main.dart.js?v=20221024=1" type="application/javascript"></script>
+  <script src="main.dart.js?v=20230123-1" type="application/javascript"></script>
 </body>
 
 </html>
